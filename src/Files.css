@@ -1,0 +1,48 @@
+.files {
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.4);
+  padding: 0;
+  margin-bottom: 20px;
+}
+.files .directories {
+  position: relative;
+  overflow: hidden;
+  background: #fff;
+  height: 200px;
+  margin-left: 1px;
+  width: 98%%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc;
+}
+.files .directories ol.directory.navbar {
+  background: #E3E3E3;
+}
+.files .directories ol.directory {
+  display: inline-block;
+  height: 190px;
+  /*position: absolute;*/
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 33.333333%;
+  padding: 0.5rem;
+  border-right: 1px solid #ccc;
+  background: white;
+  margin: 0;
+  list-style: none;
+}
+.files .directories ol.directory li {
+  color: black;
+  z-index: 1000;
+}
+.files .directories ol.directory li.folder span {
+  background: url('/assets/folder.png') 7px 3px no-repeat;
+  display: inline-block;
+  height: 15px;
+  width: 22px;
+}
+.folder {
+  font-weight: bold;
+}
+.file {
+  color: grey !important;
+}
